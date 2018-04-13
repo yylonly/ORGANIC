@@ -1,19 +1,19 @@
 # run: conda env create --file environment.yml
-name: ORGANIC
+name: base
 channels:
 - defaults
 - conda-forge
 - rdkit
 - matsci
 dependencies:
-- python>=3.5
+- python
 - anaconda
 - jupyter
 - numpy
 - scipy
 - pandas
 - rdkit
-- tensorflow==1.0
+- tensorflow
 - keras
 - pymatgen
 - pip
